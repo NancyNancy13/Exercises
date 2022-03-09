@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <p>
+          E-mail:
+          <input type="email" name="email" placeholder="E-mail" required />
+        </p>
+
+        <p>
+          Password:
+          <input type="password" name="password" placeholder="password" />
+        </p>
+
+        <p>Age-group:</p>
+        <input type="radio" name="age" id="age1" value="30" />
+        <label for="age1">0 - 30</label><br />
+        <input type="radio" name="age" id="age2" value="50" />
+        <label for="age2">31 - 50</label><br />
+        <input type="radio" name="age" id="age3" value="80" />
+        <label for="age2">51 - 80</label>
+        <p>
+          Phone No.
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            value="+45"
+            placeholder="123456"
+          />
+        </p>
+        <p>Electronic-devices:</p>
+        <input type="checkbox" id="device" name="device1" />
+        <label for="device">Smart Phone</label><br />
+        <input type="checkbox" id="device" name="device2" />
+        <label for="device">Laptop</label><br />
+        <input type="checkbox" id="device" name="device3" />
+        <label for="device">Computer</label>
+
+        <p>
+          Hobbies
+          <textarea
+            name="hobbies"
+            id="hobbies"
+            cols="30"
+            rows="5"
+            placeholder="WRITE HERE"
+          ></textarea>
+        </p>
+        <button type="submit">Submit</button>
+      </form>
+    </main>
+  </body>
+</html>
